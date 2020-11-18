@@ -18,7 +18,7 @@ public class LabClass
  {
  instructeur3 = "ce que vous voulez";
  room = " mettez ce que vous voulez ";
- timeAndDay = " mettez ce que vous voulez ";
+ timeAndDay = " Mercredi 18 Novembre ";
  students = new ArrayList<Student>();
  capacity = maxNumberOfStudents;
  }
