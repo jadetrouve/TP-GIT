@@ -9,17 +9,17 @@ public class LabClass
  private String room;
  private String timeAndDay;
  private List<Student> students;
- private int capacity;
+ private int length;
 
  /**
  * Create a LabClass with a maximum number of enrolments. All other details are set to default values.
  */
- public LabClass(int maxNumberOfStudents)
+ public LabClass(int nbStudMax)
  {
  instructeur3 = "ce que vous voulez";
  room = " mettez ce que vous voulez ";
  timeAndDay = " mettez ce que vous voulez ";
  students = new ArrayList<Student>();
- capacity = maxNumberOfStudents;
+ length = nbStudMax;
  }
 }
