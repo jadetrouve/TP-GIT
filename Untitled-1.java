@@ -5,7 +5,7 @@ import java.util.*;
 */
 public class LabClass
 {
- private String instructeur;
+ private String instructeur3;
  private String room;
  private String timeAndDay;
  private List<Student> students;
@@ -16,7 +16,7 @@ public class LabClass
  */
  public LabClass(int maxNumberOfStudents)
  {
- instructeur = "ce que vous voulez";
+ instructeur3 = "ce que vous voulez";
  room = " mettez ce que vous voulez ";
  timeAndDay = " mettez ce que vous voulez ";
  students = new ArrayList<Student>();
